@@ -1,3 +1,69 @@
 body {
+  background: lightgreen
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.a {
+  background: lightblue;
+ height: 20vw;
+ width: 100vw;
+ margin: 5px
+
+}
+.b, .c, .d {
+  background: saddlebrown;
+  height: 20vh;
+  width: 20vw;
+  margin: 5px
+}
+.e, .f, .g {
+  background: lightgoldenrodyellow;
+  height: 20vh;
+  width: 20vw;
+  margin: 5px
+}
+.h {
+  background: aquamarine;
+  width: 28vw;
+  height: 46vw;
+  margin: 5px
+}
+
+@media (max-width: 480px) {
+body {
   background: peachpuff;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.a {
+  background: lightgreen;
+ height: 40vw;
+ width: 100vw;
+ margin: 5px
+
+}
+.b, .c, .d {
+  background: slateblue;
+  height: 15vh;
+  width: 28vw;
+  margin: 5px
+}
+.e, .f, .g {
+  background: lightskyblue;
+  height: 15vh;
+  width: 28vw;
+  margin: 5px
+}
+.h {
+  background: sandybrown;
+  width: 100vw;
+  height: 100vw;
+  margin: 5px
+}
 }
