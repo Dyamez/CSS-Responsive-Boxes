@@ -11,28 +11,23 @@ body {
   background: lightblue;
  height: 20vw;
  width: 100vw;
- /* margin: 5px */
-
 }
 .b, .c, .d {
   background: saddlebrown;
-  height: 20vh;
-  width: 250px;
-  align-items: end;
-  /* margin: 5px */
-  
+  height: 20vh; 
+  width: 250px; 
 }
-.e, .f, .g {
+.e, .f, .g { 
   background: lightgoldenrodyellow;
   height: 20vh;
   width: 250px;
-  
+  order: 2
 }
 .h {
   background: aquamarine;
   width: 20vw;
-  height: 20vw;
-  grid-column: 3;
+  height: 30vw;
+  order: 1
 }
 
 @media (max-width: 480px) {

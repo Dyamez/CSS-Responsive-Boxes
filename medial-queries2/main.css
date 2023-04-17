@@ -5,8 +5,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 10px;
-  margin: 5px;
+  gap: 1em; 
 }
 .a {
   background: white;
@@ -15,18 +14,20 @@ body {
 }
 .b {
   background: lightcyan;
-  width: 70vw;
-  height: 33vh;
+  width: 800px; 
+  height: 300px;
 }
 .c, .d, .e {
   background: lightseagreen;
-  width: 15vw;
-  height: 33vh;
+  width: 200px;
+  height: 200px;
+  align-self: flex-start;
 }
 .f {
   background: lightgrey;
   width: 20vw;
-  height: 50vh;
+  height: 300px;
+  margin-left: 5px;
 }
 
 @media (max-width: 480px) {
