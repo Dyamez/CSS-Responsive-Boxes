@@ -5,6 +5,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 10px;
+  margin: 5px;
 }
 .a {
   background: white;
@@ -25,20 +27,12 @@ body {
   background: lightgrey;
   width: 20vw;
   height: 50vh;
-  order: f" c 
 }
 
 @media (max-width: 480px) {
 body {
   background: papayawhip;
 }
-
-/* .container { */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-between; */
-/* } */
-
 .a {
   background: skyblue;
   width: 100%;
@@ -56,8 +50,6 @@ body {
 .c, .d, .e { 
   background: lightcyan;
   display: flex;
-  /* justify-content: space-between; */
-  /* flex-wrap: wrap; */
   width: 10vh;
   height: 10vh;
   margin: 5px;

@@ -5,31 +5,34 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 10px;
 }
 .a {
   background: lightblue;
  height: 20vw;
  width: 100vw;
- margin: 5px
+ /* margin: 5px */
 
 }
 .b, .c, .d {
   background: saddlebrown;
   height: 20vh;
-  width: 20vw;
-  margin: 5px
+  width: 250px;
+  align-items: end;
+  /* margin: 5px */
+  
 }
 .e, .f, .g {
   background: lightgoldenrodyellow;
   height: 20vh;
-  width: 20vw;
-  margin: 5px
+  width: 250px;
+  
 }
 .h {
   background: aquamarine;
-  width: 28vw;
-  height: 46vw;
-  margin: 5px
+  width: 20vw;
+  height: 20vw;
+  grid-column: 3;
 }
 
 @media (max-width: 480px) {
@@ -51,19 +54,19 @@ body {
 .b, .c, .d {
   background: slateblue;
   height: 15vh;
-  width: 28vw;
+  width: 120px;
   margin: 5px
 }
 .e, .f, .g {
   background: lightskyblue;
   height: 15vh;
-  width: 28vw;
+  width: 120px;
   margin: 5px
 }
 .h {
   background: sandybrown;
   width: 100vw;
-  height: 100vw;
+  height: 96vw;
   margin: 5px
 }
 }
